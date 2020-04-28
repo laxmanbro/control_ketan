@@ -62,8 +62,8 @@ print("Gain crossover freq = ",Wgc)
 
 
 # if using termux
-plt.savefig('./figs/ee18btech11049/ee18btech11049_2.pdf')
-plt.savefig('./figs/ee18btech11049/ee18btech11049_2.eps')
-subprocess.run(shlex.split("termux-open ./figs/ee18btech11049/ee18btech11049_2.pdf"))
+plt.savefig('../figs/ee18btech11049/ee18btech11049_2.pdf')
+plt.savefig('../figs/ee18btech11049/ee18btech11049_2.eps')
+subprocess.run(shlex.split("termux-open ../figs/ee18btech11049/ee18btech11049_2.pdf"))
 # else
 # plt.show()
